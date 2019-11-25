@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg",
+        "selected": false
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_960_720.jpg",
+        "selected": false
+    },
+    {
+        "id": 3,
+        "image": "https://image.freepik.com/free-vector/abstract-dynamic-pattern-wallpaper-vector_53876-59131.jpg",
+        "selected": false
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1423&q=80.jpg",
+        "selected": false
+    },
+    {
+        "id": 5,
+        "image": "http://hdwpro.com/wp-content/uploads/2017/11/Awesome-Wallpaper.jpg",
+        "selected": false
+    },
+    {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-1.2.1&auto=format&fit=crop&w=428&h=214&q=60.jpg",
+        "selected": false
+    },
+    {
+        "id": 7,
+        "image": "https://pbs.twimg.com/media/D6wuac4UIAEOC2h.jpg",
+        "selected": false
+    },
+    {
+        "id": 8,
+        "image": "https://www.sammobile.com/wp-content/uploads/2019/03/keyguard_default_wallpaper_green.png",
+        "selected": false
+    },
+    {
+        "id": 9,
+        "image": "https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-thumb.jpg",
+        "selected": false
+    }
+]

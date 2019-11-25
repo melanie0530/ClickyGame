@@ -1,0 +1,114 @@
+body{
+  background: rgb(97,106,147);
+  background: linear-gradient(90deg, rgba(97,106,147,1) 0%, rgba(72,68,88,1) 0%, rgba(10,26,32,1) 7%, rgba(67,139,150,1) 10%, rgba(35,176,154,1) 21%, rgba(13,34,23,1) 39%, rgba(41,98,94,1) 58%, rgba(55,66,112,1) 66%, rgba(24,86,158,1) 74%, rgba(46,94,161,1) 80%, rgba(65,101,163,1) 85%, rgba(61,87,165,1) 91%, rgba(26,62,30,0.9836309523809523) 100%);
+}
+.header {
+  background: rgb(5, 9, 12);
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+.correctA {
+  transition: 0.5s;
+  color: white;
+}
+.incorrectA {
+  color: rgb(111, 0, 255);
+  transition: 0.5s;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+#logo {
+  width: 33%;
+  height: 100%;
+  line-height: 200%;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0.1vw 0.1vw 0.5vw black;
+  text-align: center;
+  margin-left: -40px;
+}
+.scoreHolder {
+  width: 100%;
+  display: flex;
+}
+#scoreDiv {
+  /* background:white; */
+  font-size: 3vw;
+  width: 33%;
+  text-align: center;
+  color: white;
+}
+#userAlert {
+  width: 33%;
+  height: 100%;
+  margin: auto;
+  margin-left: 0;
+  font-size: 3vw;
+  line-height: 150px;
+  text-align: center;
+  text-shadow: 0.2vw 0.2vw 0.5vw black;
+  animation: slideInFromLeft 1s;
+}
+.score-display {
+  margin-top: 50px;
+  width: 100%;
+  font-size: 20px;
+}
+#instruc {
+  width:auto;
+  height:auto;
+  font-size:25px;
+  color:black;
+  text-align:center;
+  margin:auto;
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+.Section {
+  width: 52.5vh;
+  min-height: 52.5vh;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  background: white;
+  position: relative;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0.05vw 0.05vw 0.3vw black;
+  /* font-size:100px; */
+}
+.card:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+  box-shadow: 0.05vw 0.05vw 0.3vw white;
+}
+#cardImg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
